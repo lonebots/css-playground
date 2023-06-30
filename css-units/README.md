@@ -17,4 +17,4 @@ These deals with the common measurement units that usually deals with css styles
 ### Others
 
 - Number, length and Percentage:
-  - represent a relative quantOthersity
+  - represent relative to some other quantity.

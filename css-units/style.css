@@ -8,6 +8,7 @@
 body {
   min-height: 100vh;
   width: 100%;
+  margin: 1rem;
 }
 
 h2 {
@@ -15,9 +16,11 @@ h2 {
   font-size: 3rem;
   padding: 0.5em;
   border: 2px solid red;
+  margin: 0.5em 0em;
+  text-align: center;
 }
 
 p {
-  width: 53ch;
+  width: 50%;
   text-align: justify;
 }

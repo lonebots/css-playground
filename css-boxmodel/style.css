@@ -1,0 +1,26 @@
+/* reset user agent default styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 70%;
+  font-size: 1.5rem; /*default font-size : 16px*/
+  border: 2px dashed red;
+  padding: 1em 1em 1em 1em; /*when specified relatively, it is relative to the font-size*/
+  margin: 1em; /*top right bottom left*/
+}
+
+/* add a new circle */
+.circle {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  margin: 10px auto;
+  border-radius: 50%;
+  border: 3px solid green;
+  outline: 1px solid black;
+  outline-offset: 2px;
+}

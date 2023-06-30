@@ -1,0 +1,33 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+  */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  padding: 10%;
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+}
+
+input,
+button {
+  font: inherit;
+}
+
+p {
+  /*text-style*/
+  text-align: justify;
+  text-indent: 2em; /*always specify in relative measurment*/
+
+  /*line-style*/
+  line-height: 1.4;
+  word-spacing: 0.2em;
+
+  /*font-style*/
+  font-weight: 100;
+  font-style: oblique;
+}

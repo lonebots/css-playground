@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.columns {
+  /* column-count: 4;
+  column-width: 250px; */
+  columns: 4 250px;
+  column-rule: 2px solid #333;
+  column-gap: 2rem;
+}
+
+.columns p {
+  text-align: justify;
+  text-indent: 1rem;
+  margin-top: 0;
+}
+
+section h2 {
+  background-color: #333;
+  color: whitesmoke;
+  padding: 0.5rem;
+  text-align: center;
+  break-inside: avoid;
+  /* break-before: column; */
+}
+
+.columns .quote {
+  margin-top: 2rem;
+  font-style: oblique;
+  font-size: 1.2rem;
+  color: #8d2727;
+  text-align: center;
+  column-span: all;
+}
+
+.nowrap {
+  white-space: nowrap;
+}

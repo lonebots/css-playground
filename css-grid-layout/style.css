@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  min-height: 100vh;
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr 2fr);
+  grid-template-rows: repeat(3, 100px);
+  gap: 1em 2em; /*row , column*/
+}
+
+.box {
+  background-color: hsla(0, 0%, 0%, 0.851);
+  color: #fff;
+  font-size: 2rem;
+  padding: 0.5rem;
+  outline: 2px solid white;
+}

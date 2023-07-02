@@ -39,4 +39,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  /*flex-basis : used to set a base width*/
+  flex-basis: 140px;
+
+  /*flex-grow : used to set whether something sould grow according to the screen size or not*/
+  flex-grow: 1; /*set to positive values means it can grow when screen size changes*/
+}
+
+/*over riding flex characteristic using n-th child*/
+.box:nth-child(odd) {
+  flex-grow: 2;
+  flex-shrink: 2;
 }
